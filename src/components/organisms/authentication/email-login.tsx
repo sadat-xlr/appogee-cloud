@@ -30,10 +30,10 @@ export const EmailLogin = () => {
     }
     //NOTE THIS IS ONLY FOR DEMO PURPOSE
     
-    const response = await magicLogin(email.value);
+    //const response = await magicLogin(email.value);
 
     
-    //const response = await demoLogin(email.value);
+    const response = await demoLogin(email.value);
 
     setIsLoading(false);
     if (!response.ok) {
