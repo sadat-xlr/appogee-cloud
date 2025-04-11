@@ -48,7 +48,6 @@ export const EmailLogin = () => {
     <form method="post" onSubmit={handleSubmit} className="space-y-2">
       <Box>
         <Input
-          readOnly={true}
           autoComplete="off"
           name="email"
           type="email"
