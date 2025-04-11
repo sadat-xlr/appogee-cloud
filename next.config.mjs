@@ -16,13 +16,13 @@ const nextConfig = {
         protocol: 'http',
         hostname: 'localhost',
       },
-      {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-      },
-      {
-        hostname: 'lh3.googleusercontent.com',
-      },
+      // {
+      //   protocol: 'https',
+      //   hostname: 'lh3.googleusercontent.com',
+      // },
+      // {
+      //   hostname: 'lh3.googleusercontent.com',
+      // },
       {
         protocol: 'https',
         hostname: 'via.placeholder.com',

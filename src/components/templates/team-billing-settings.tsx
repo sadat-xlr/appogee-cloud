@@ -32,7 +32,8 @@ export const TeamBillingSettings = ({
           rules={permissions}
         >
           <Flex justify="end" className="w-full">
-            <ManageBilling />
+            {/* <ManageBilling /> */}
+            <></>
           </Flex>
 
         </Allow>

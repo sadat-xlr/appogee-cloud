@@ -82,10 +82,10 @@ export const SettingsPageMenus: Menu[] = [
     name: 'Roles',
     href: PAGES.SETTINGS.TEAM.ROLES,
   },
-  {
-    name: 'Billing',
-    href: PAGES.SETTINGS.TEAM.BILLING,
-  }
+  // {
+  //   name: 'Billing',
+  //   href: PAGES.SETTINGS.TEAM.BILLING,
+  // }
 ];
 
 export const UserSettingsPageMenus: Menu[] = [
@@ -97,10 +97,10 @@ export const UserSettingsPageMenus: Menu[] = [
     name: 'Teams',
     href: PAGES.SETTINGS.USER.TEAMS,
   },
-  {
-    name: 'Billing',
-    href: PAGES.SETTINGS.USER.BILLING,
-  }
+  // {
+  //   name: 'Billing',
+  //   href: PAGES.SETTINGS.USER.BILLING,
+  // }
 ];
 
 export const AdminPageMenus: Menu[] = [

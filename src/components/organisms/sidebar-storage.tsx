@@ -69,11 +69,7 @@ export function SidebarStorage({
             </Text>
             <Flex justify="center" className="w-full">
               <Link
-                href={
-                  currentTeam
-                    ? PAGES.SETTINGS.TEAM.BILLING
-                    : PAGES.SETTINGS.USER.BILLING
-                }
+                href={'#'}
                 className="outline-none inline-flex justify-center w-auto lg:w-full"
               >
                 <Button
@@ -104,11 +100,7 @@ export function SidebarStorage({
       </Text>
       <Flex justify="center" className="w-full">
         <Link
-          href={
-            currentTeam
-              ? PAGES.SETTINGS.TEAM.BILLING
-              : PAGES.SETTINGS.USER.BILLING
-          }
+          href={'#'}
           className="outline-none inline-flex justify-center w-full"
         >
           <Button
