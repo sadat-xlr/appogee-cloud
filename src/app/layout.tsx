@@ -8,8 +8,8 @@ import { cn } from '@/lib/utils/cn';
 import NextProgress from '@/components/atoms/next-progress';
 
 export const metadata: Metadata = {
-  title: 'FileKit',
-  description: 'A starter kit for building SaaS products with Next.js',
+  title: 'Appogee Cloud',
+  description: 'A digital cloud solution for File management',
 };
 
 export default function RootLayout({
