@@ -11,7 +11,7 @@ import { GoogleIcon } from '@/components/atoms/icons/google';
 import { Box, Flex } from '@/components/atoms/layout';
 import { useSearchParams } from '@/components/atoms/next/navigation';
 
-// const demoMail = 'demo@filekit.com';
+const demoMail = 'demo@filekit.com';
 
 export const EmailLogin = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -29,10 +29,10 @@ export const EmailLogin = () => {
       return;
     }
     //NOTE THIS IS ONLY FOR DEMO PURPOSE
-    
+
     //const response = await magicLogin(email.value);
 
-    
+
     const response = await demoLogin(email.value);
 
     setIsLoading(false);
@@ -41,13 +41,14 @@ export const EmailLogin = () => {
       return;
     }
 
-    toast('Please check your email for a magic link.');
+    //toast('Loading dashboard ... ');
   };
 
   return (
     <form method="post" onSubmit={handleSubmit} className="space-y-2">
       <Box>
         <Input
+          value={demoMail}
           autoComplete="off"
           name="email"
           type="email"
