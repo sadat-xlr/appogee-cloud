@@ -43,6 +43,6 @@ export const PAGES = {
     },
   },
   DOC:{
-    LINK:'https://filekit-doc.vercel.app/'
+    LINK:'https://example.com/'
   }
 };

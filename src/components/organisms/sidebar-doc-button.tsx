@@ -20,7 +20,7 @@ export function SidebarDocButton({
 
   return (
     <Tooltip
-      content="Documentation"
+      content="Help"
       placement="right"
       className={cn(!IS_COLLAPSED && 'opacity-0')}
     >
@@ -32,7 +32,7 @@ export function SidebarDocButton({
       >
         <Link
           legacyBehavior
-          href="https://filekit-doc.vercel.app/"
+          href="#"
           passHref
           className="outline-none inline-flex justify-center w-full"
         >
