@@ -103,10 +103,10 @@ function PricingCard({
   data: PricingCardData;
   pricingType: keyof typeof pricing;
 }) {
-  const href =
-    pricingType === 'team'
-      ? PAGES.SETTINGS.TEAM.BILLING
-      : PAGES.SETTINGS.USER.BILLING;
+  // const href =
+  //   pricingType === 'team'
+  //     ? PAGES.SETTINGS.TEAM.BILLING
+  //     : PAGES.SETTINGS.USER.BILLING;
 
   return (
     <Grid
@@ -181,7 +181,7 @@ function PricingCard({
             ></Text>
           </Text>{' '}
           <Link
-            href={href}
+            href={'#'}
             className="block mb-2 text-sm lg:text-base text-center bg-custom-black duration-200 hover:bg-custom-black/90 font-semibold rounded md:rounded-lg lg:p-4 p-3 text-white "
           >
             Get Started

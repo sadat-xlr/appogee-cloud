@@ -5,7 +5,7 @@ export const PAGES = {
     FAQ: '/faq',
     PRIVACY_POLICY: '/privacy-policy',
     TERMS: '/terms',
-    PRICING: '/pricing',
+    //PRICING: '/pricing',
   },
   AUTH: {
     LOGIN: '/login',
@@ -31,7 +31,7 @@ export const PAGES = {
   SETTINGS: {
     USER: {
       PROFILE: '/settings/profile',
-      BILLING: '/settings/billing',
+     // BILLING: '/settings/billing',
       TEAMS: '/settings/teams',
     },
     TEAM: {
@@ -39,10 +39,10 @@ export const PAGES = {
       MEMBERS: '/settings/team/members',
       ROLES: '/settings/team/roles',
       INVITED: '/settings/team/invited',
-      BILLING: '/settings/team/billing',
+      //BILLING: '/settings/team/billing',
     },
   },
   DOC:{
-    LINK:'https://filekit-doc.vercel.app/'
+    LINK:'https://example.com/'
   }
 };

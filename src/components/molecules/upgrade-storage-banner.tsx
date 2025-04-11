@@ -24,7 +24,7 @@ export function UpgradeStorageBanner({
       <Box className="w-full px-4 mb-8">
         <UpgradeStorageIllustration className="w-full h-[198px]" />
       </Box>
-      <Flex justify="center">
+      {/* <Flex justify="center">
         <Link
           href={
             currentTeam
@@ -38,7 +38,7 @@ export function UpgradeStorageBanner({
       </Flex>
       <Text className="text-white font-medium text-sm text-center">
         Upgrade your plan to get more space
-      </Text>
+      </Text> */}
     </Box>
   );
 }
