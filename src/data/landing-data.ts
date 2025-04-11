@@ -6,10 +6,10 @@ export const navMenuItems = [
     title: 'Home',
     href: PAGES.STATIC.LANDING,
   },
-  // {
-  //   title: 'Pricing',
-  //   href: PAGES.STATIC.PRICING,
-  // },
+  {
+    title: 'Pricing',
+    href: PAGES.STATIC.PRICING,
+  },
   {
     title: 'Contact',
     href: PAGES.STATIC.CONTACT_US,

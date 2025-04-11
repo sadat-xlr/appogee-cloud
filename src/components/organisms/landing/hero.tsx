@@ -66,7 +66,7 @@ export default function Hero() {
               </ReactScrollLink>
 
               <Link
-                href={'#'}
+                href={PAGES.STATIC.PRICING}
                 className={cn(
                   'inline-flex items-center h-[unset] justify-center bg-[#141D25] group rounded-lg text-white relative overflow-hidden border border-white/20 duration-200 hover:border-white/40',
                   'font-medium py-2 px-5 rounded text-xs xl:text-base xl:py-4 xl:px-10 xl:rounded-lg'
@@ -89,7 +89,7 @@ export default function Hero() {
               </Link>
             </Flex>
           </Box>
-          <IntroVideo videoUrl="https://your-video.ulr" />
+          <IntroVideo videoUrl="https://pub-f0aafe24067b4986a388ba29dad82bf4.r2.dev/image%2Ffilekit-intro.mp4" />
         </Flex>
       </Container>
     </Section>

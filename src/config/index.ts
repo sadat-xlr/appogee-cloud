@@ -1,7 +1,7 @@
 import { MAIL } from './mail';
 import { PAGES } from './pages';
 
-export const APP_NAME = 'Appogee Cloud';
+export const APP_NAME = 'FileKit';
 
 export const CONFIG = {
   MAIL,

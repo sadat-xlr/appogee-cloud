@@ -108,7 +108,7 @@ export function Socials({ className }: { className?: string }) {
     >
       <a
         aria-label="Facebook Link"
-        href="#"
+        href="https://www.facebook.com/redqinc?mibextid=ZbWKwL"
         target="_blank"
         rel="noreferrer"
       >
@@ -116,7 +116,7 @@ export function Socials({ className }: { className?: string }) {
       </a>
       <a
         aria-label="Twitter Link"
-        href="#"
+        href="https://twitter.com/RedqTeam"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -124,7 +124,7 @@ export function Socials({ className }: { className?: string }) {
       </a>
       <a
         aria-label="Linkedin Link"
-        href="#"
+        href="https://www.linkedin.com/company/redqinc/"
         target="_blank"
         rel="noreferrer"
       >

@@ -1,3 +1,3 @@
 export const externalLinks = {
-  support: '#',
+  support: 'https://redqsupport.ticksy.com/',
 };

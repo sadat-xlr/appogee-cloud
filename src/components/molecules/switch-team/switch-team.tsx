@@ -51,18 +51,16 @@ export default function SwitchTeam({
       if (
         currentTeam !== null &&
         (pathname === PAGES.SETTINGS.USER.PROFILE ||
-          //pathname === PAGES.SETTINGS.USER.BILLING ||
+          pathname === PAGES.SETTINGS.USER.BILLING ||
           pathname === PAGES.SETTINGS.USER.TEAMS)
       ) {
         handleTeamSwitching(null);
       } else if (
         currentTeam === null &&
-        (
-          pathname === PAGES.SETTINGS.TEAM.ROOT ||
+        (pathname === PAGES.SETTINGS.TEAM.ROOT ||
           pathname === PAGES.SETTINGS.TEAM.MEMBERS ||
-          pathname === PAGES.SETTINGS.TEAM.ROLES
-          //pathname === PAGES.SETTINGS.TEAM.BILLING
-        )
+          pathname === PAGES.SETTINGS.TEAM.ROLES ||
+          pathname === PAGES.SETTINGS.TEAM.BILLING)
       ) {
         handleTeamSwitching(teams[0].id);
       } else {

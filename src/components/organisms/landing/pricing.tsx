@@ -153,6 +153,10 @@ function PricingCard({
   data: PricingData;
   pricingType: keyof typeof pricing;
 }) {
+  const href =
+    pricingType === 'team'
+      ? PAGES.SETTINGS.TEAM.BILLING
+      : PAGES.SETTINGS.USER.BILLING;
   return (
     <Box className="bg-white [box-shadow:_0px_4px_12px_0px_rgba(0,_0,_0,_0.06);] p-7 md:p-8 pt-10 xl:p-11 shadow-black/[.08] rounded-lg lg:rounded-2xl w-full [@media(min-width:500px)]:basis-[calc(50%_-_8px)] lg:!basis-[unset] lg:col-span-1">
       <Text className="text-center font-semibold text-lg md:text-xl lg:text-2xl mb-4 lg:mb-8">
@@ -184,7 +188,7 @@ function PricingCard({
         </ul>
       </Box>
       <Link
-        href={'#'}
+        href={href}
         className="block mt-12 md:mt-16 text-sm md:text-base text-center bg-custom-black duration-200 hover:bg-custom-black/90 font-semibold rounded md:rounded-lg md:p-4 p-3 text-white "
       >
         Get Started
