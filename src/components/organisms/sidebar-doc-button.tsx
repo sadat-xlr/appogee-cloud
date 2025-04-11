@@ -51,7 +51,7 @@ export function SidebarDocButton({
                   IS_COLLAPSED && 'w-5'
                 )}
               />
-              {!IS_COLLAPSED && <span>Documentation</span>}
+              {!IS_COLLAPSED && <span>Help!</span>}
             </Button>
           </a>
         </Link>
