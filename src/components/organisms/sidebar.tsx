@@ -38,7 +38,7 @@ export async function Sidebar({
   const user = await me();
   const { totalUsed } = await getAnalyticsData(currentTeam?.id, user?.id);
 
-  const STORAGE_CAPACITY = 10000;
+  const STORAGE_CAPACITY = 10000000000;
   const convertTotalStorage = formatFileSize(STORAGE_CAPACITY as number);
   const currentStorage = formatFileSize(totalUsed.bytes);
   const logo = await getSetting('logo');
