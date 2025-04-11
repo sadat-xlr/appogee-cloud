@@ -103,10 +103,7 @@ function PricingCard({
   data: PricingCardData;
   pricingType: keyof typeof pricing;
 }) {
-  const href =
-    pricingType === 'team'
-      ? PAGES.SETTINGS.TEAM.BILLING
-      : PAGES.SETTINGS.USER.BILLING;
+  const href ='#'
 
   return (
     <Grid

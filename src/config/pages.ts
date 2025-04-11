@@ -5,7 +5,7 @@ export const PAGES = {
     FAQ: '/faq',
     PRIVACY_POLICY: '/privacy-policy',
     TERMS: '/terms',
-    PRICING: '/pricing',
+    //PRICING: '/pricing',
   },
   AUTH: {
     LOGIN: '/login',

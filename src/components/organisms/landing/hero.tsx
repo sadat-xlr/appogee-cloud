@@ -66,7 +66,7 @@ export default function Hero() {
               </ReactScrollLink>
 
               <Link
-                href={PAGES.STATIC.PRICING}
+                href={'#'}
                 className={cn(
                   'inline-flex items-center h-[unset] justify-center bg-[#141D25] group rounded-lg text-white relative overflow-hidden border border-white/20 duration-200 hover:border-white/40',
                   'font-medium py-2 px-5 rounded text-xs xl:text-base xl:py-4 xl:px-10 xl:rounded-lg'

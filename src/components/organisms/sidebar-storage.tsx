@@ -67,7 +67,7 @@ export function SidebarStorage({
             <Text className="mt-3 mb-7 text-steel-700 dark:text-steel-300">
               {currentStorage} of {convertTotalStorage} used
             </Text>
-            <Flex justify="center" className="w-full">
+            {/* <Flex justify="center" className="w-full">
               <Link
                 href={
                   currentTeam
@@ -83,7 +83,7 @@ export function SidebarStorage({
                   Get More Storage
                 </Button>
               </Link>
-            </Flex>
+            </Flex> */}
           </Box>
         </Popover.Content>
       </Popover>
@@ -102,7 +102,7 @@ export function SidebarStorage({
       <Text className="mt-3 mb-7 text-steel-700 dark:text-steel-300 whitespace-nowrap">
         {currentStorage} of {convertTotalStorage} used
       </Text>
-      <Flex justify="center" className="w-full">
+      {/* <Flex justify="center" className="w-full">
         <Link
           href={
             currentTeam
@@ -118,7 +118,7 @@ export function SidebarStorage({
             Get More Storage
           </Button>
         </Link>
-      </Flex>
+      </Flex> */}
     </Box>
   );
 }

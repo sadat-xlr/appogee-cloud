@@ -60,10 +60,10 @@ export default function Dashboard({
             currentTeamId={currentTeam?.id as string}
             recentActivitiesFiles={recentActivities}
           />
-          <UpgradeStorageBanner
+          {/* <UpgradeStorageBanner
             currentTeam={currentTeam}
             className="h-[378px]"
-          />
+          /> */}
         </Box>
       </Grid>
     </Box>

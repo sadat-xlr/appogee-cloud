@@ -11,24 +11,25 @@ import { TeamBillingSettings } from '@/components/templates/team-billing-setting
 export const dynamic = 'force-dynamic';
 
 export default async function Page({ searchParams }: { searchParams: any }) {
-  const user = await me();
+  // const user = await me();
 
-  const subscription = await getCurrentTeamSubscription();
-  const permissions = await getUserPermission();
+  // const subscription = await getCurrentTeamSubscription();
+  // const permissions = await getUserPermission();
 
   return (
-    <Allow
-      access={PERMISSIONS.VIEW_TEAM_BILLING}
-      mod={MODULE.TEAM}
-      rules={permissions}
-      fallback={<NoPermission />}
-    >
-      <TeamBillingSettings
-        permissions={permissions}
-        teamId={user.currentTeamId}
-        searchParams={searchParams}
-        subscription={subscription}
-      />
-    </Allow>
+    <></>
+    // <Allow
+    //   access={PERMISSIONS.VIEW_TEAM_BILLING}
+    //   mod={MODULE.TEAM}
+    //   rules={permissions}
+    //   fallback={<NoPermission />}
+    // >
+    //   <TeamBillingSettings
+    //     permissions={permissions}
+    //     teamId={user.currentTeamId}
+    //     searchParams={searchParams}
+    //     subscription={subscription}
+    //   />
+    // </Allow>
   );
 }
