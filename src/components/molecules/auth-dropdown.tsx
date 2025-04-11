@@ -43,7 +43,7 @@ const AuthDropDownMenus: AuthDropDownMenuTree = {
       icon: RiHome8Line,
     },
     {
-      name: 'Help ?',
+      name: 'Documentation',
       href: PAGES.DOC.LINK,
       icon: RiFileCopy2Line,
     },

@@ -8,9 +8,9 @@ export async function middleware(request: NextRequest): Promise<NextResponse> {
     return NextResponse.next();
   }
   
-  // if (request.nextUrl.pathname === '/api/stripe/webhook') {
-  //   return NextResponse.next();
-  // }
+  if (request.nextUrl.pathname === '/api/stripe/webhook') {
+    return NextResponse.next();
+  }
   const originHeader = request.headers.get('Origin');
   // NOTE: You may need to use `X-Forwarded-Host` instead
   const hostHeader = request.headers.get('Host');

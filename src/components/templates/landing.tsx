@@ -15,7 +15,7 @@ export default function Landing({ faq }: { faq: any }) {
       <StoreFile />
       <Service />
       <Feature />
-      {/* <Pricing /> */}
+      <Pricing />
       <Testimonial />
       <Faq faq={faq} />
     </>

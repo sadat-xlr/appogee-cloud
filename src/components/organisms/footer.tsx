@@ -66,7 +66,7 @@ export default function Footer({
             <Text className="py-0.5">
               &copy; {new Date().getFullYear()}{' '}
               <Link
-                href="https://example.io"
+                href="https://redq.io"
                 target="_blank"
                 rel="noreferrer"
                 className={cn(
@@ -74,7 +74,7 @@ export default function Footer({
                   variant !== 'dashboard' && 'text-[#E5E7EB]'
                 )}
               >
-                Appogee Cloud
+                REDQ
               </Link>
               . All rights reserved.
             </Text>

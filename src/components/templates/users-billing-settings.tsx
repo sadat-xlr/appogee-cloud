@@ -23,8 +23,7 @@ export const UsersBillingSettings = async ({
         headingWrapperClassName="[@media(min-width:375px)]:w-auto"
       >
         <Flex justify="end" className="w-full">
-          {/* <ManageBilling /> */}
-          <></>
+          <ManageBilling />
         </Flex>
       </PageHeader>
 
